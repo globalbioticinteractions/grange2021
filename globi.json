@@ -15,7 +15,7 @@
     "interactionTypeName" : "hostOf",
     "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002453",
     "headerRowCount" : 1,
-    "null" : [ "Unknown", "See USAID DDL" ],
+    "null" : [ "Unknown", "See USAID DDL", "NA" ],
     "tableSchema" : {
       "columns" : [ {
         "name" : "",
