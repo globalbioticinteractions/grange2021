@@ -15,7 +15,7 @@
     "interactionTypeName" : "hostOf",
     "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002453",
     "headerRowCount" : 1,
-    "null" : [ "" ],
+    "null" : [ "Unknown", "See USAID DDL" ],
     "tableSchema" : {
       "columns" : [ {
         "name" : "",
@@ -69,11 +69,11 @@
           "valueUrl" : "https://www.ncbi.nlm.nih.gov/nuccore/{referenceUrl}"
         }
       }, {
-        "name" : "InterfaceP1",
+        "name" : "habitatName",
         "titles" : "InterfaceP1",
         "datatype" : "string"
       }, {
-        "name" : "SampleType",
+        "name" : "sourceBodyPartName",
         "titles" : "SampleType",
         "datatype" : "string"
       }, {
