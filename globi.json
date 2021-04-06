@@ -1,0 +1,246 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://osf.io/43zbj/download",
+    "dcterms:bibliographicCitation" : "Grange, Z.L. et al., 2021. Ranking the risk of animal-to-human spillover for newly discovered viruses. Proceedings of the National Academy of Sciences, 118(15), p.e2002324118. Available at: http://dx.doi.org/10.1073/pnas.2002324118.",
+    "doi":"10.1073/pnas.2002324118",
+    "delimiter" : ",",
+    "interactionTypeName" : "hostOf",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002453",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      }, {
+        "name" : "IndividualID",
+        "titles" : "IndividualID",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClass",
+        "titles" : "HostClass",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrder",
+        "titles" : "HostOrder",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "HostFamily",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "HostGenus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecies",
+        "titles" : "HostSpecies",
+        "datatype" : "string"
+      }, {
+        "name" : "Virus",
+        "titles" : "Virus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpecies",
+        "titles" : "VirusSpecies",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenus",
+        "titles" : "VirusGenus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamily",
+        "titles" : "VirusFamily",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceUrl",
+        "titles" : "AccessionNumber",
+        "datatype" : {
+          "base" : "string",
+          "valueUrl" : "https://www.ncbi.nlm.nih.gov/nuccore/{referenceUrl}"
+        }
+      }, {
+        "name" : "InterfaceP1",
+        "titles" : "InterfaceP1",
+        "datatype" : "string"
+      }, {
+        "name" : "SampleType",
+        "titles" : "SampleType",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "DivergenceHumansMYA",
+        "titles" : "DivergenceHumansMYA",
+        "datatype" : "string"
+      }, {
+        "name" : "DataSource",
+        "titles" : "DataSource",
+        "datatype" : "string"
+      }, {
+        "name" : "SiteID",
+        "titles" : "SiteID",
+        "datatype" : "string"
+      }, {
+        "name" : "MYAgroup",
+        "titles" : "MYAgroup",
+        "datatype" : "string"
+      }, {
+        "name" : "Genome_General",
+        "titles" : "Genome_General",
+        "datatype" : "string"
+      }, {
+        "name" : "Segmented",
+        "titles" : "Segmented",
+        "datatype" : "string"
+      }, {
+        "name" : "Envelope",
+        "titles" : "Envelope",
+        "datatype" : "string"
+      }, {
+        "name" : "VirusHumans_Final",
+        "titles" : "VirusHumans_Final",
+        "datatype" : "string"
+      }, {
+        "name" : "VirusTerrMamm_Final",
+        "titles" : "VirusTerrMamm_Final",
+        "datatype" : "string"
+      }, {
+        "name" : "VirusBirds_Final",
+        "titles" : "VirusBirds_Final",
+        "datatype" : "string"
+      }, {
+        "name" : "VirusOtherAnim_Final",
+        "titles" : "VirusOtherAnim_Final",
+        "datatype" : "string"
+      }, {
+        "name" : "PercentageHumanGroup",
+        "titles" : "PercentageHumanGroup",
+        "datatype" : "string"
+      }, {
+        "name" : "PercentageTerrMammGroup",
+        "titles" : "PercentageTerrMammGroup",
+        "datatype" : "string"
+      }, {
+        "name" : "PercentageBirdsGroup",
+        "titles" : "PercentageBirdsGroup",
+        "datatype" : "string"
+      }, {
+        "name" : "PercentageOtherAnimGroup",
+        "titles" : "PercentageOtherAnimGroup",
+        "datatype" : "string"
+      }, {
+        "name" : "PercentMoreOnehostGroup",
+        "titles" : "PercentMoreOnehostGroup",
+        "datatype" : "string"
+      }, {
+        "name" : "Epidemics_Final",
+        "titles" : "Epidemics_Final",
+        "datatype" : "string"
+      }, {
+        "name" : "Pandemic",
+        "titles" : "Pandemic",
+        "datatype" : "string"
+      }, {
+        "name" : "PercentageHumanPathGroup",
+        "titles" : "PercentageHumanPathGroup",
+        "datatype" : "string"
+      }, {
+        "name" : "SeverityDiseaseHumans",
+        "titles" : "SeverityDiseaseHumans",
+        "datatype" : "string"
+      }, {
+        "name" : "KnownMammal_TerrPathogenicity",
+        "titles" : "KnownMammal_TerrPathogenicity",
+        "datatype" : "string"
+      }, {
+        "name" : "KnownBirdPathogenicity",
+        "titles" : "KnownBirdPathogenicity",
+        "datatype" : "string"
+      }, {
+        "name" : "KnownOtherAnimalPathogenicity",
+        "titles" : "KnownOtherAnimalPathogenicity",
+        "datatype" : "string"
+      }, {
+        "name" : "Total_transmission",
+        "titles" : "Total_transmission",
+        "datatype" : "string"
+      }, {
+        "name" : "ChronicityHumans",
+        "titles" : "ChronicityHumans",
+        "datatype" : "string"
+      }, {
+        "name" : "HumanToHumanTransVirus",
+        "titles" : "HumanToHumanTransVirus",
+        "datatype" : "string"
+      }, {
+        "name" : "AnimalToHuman",
+        "titles" : "AnimalToHuman",
+        "datatype" : "string"
+      }, {
+        "name" : "NoHabitats_total",
+        "titles" : "NoHabitats_total",
+        "datatype" : "string"
+      }, {
+        "name" : "WilsonNoDiets",
+        "titles" : "WilsonNoDiets",
+        "datatype" : "string"
+      }, {
+        "name" : "ConservationStatus",
+        "titles" : "ConservationStatus",
+        "datatype" : "string"
+      }, {
+        "name" : "TaxaGroup",
+        "titles" : "TaxaGroup",
+        "datatype" : "string"
+      }, {
+        "name" : "HostGeography",
+        "titles" : "HostGeography",
+        "datatype" : "string"
+      }, {
+        "name" : "LUS_new",
+        "titles" : "LUS_new",
+        "datatype" : "string"
+      }, {
+        "name" : "LVSTD_DS",
+        "titles" : "LVSTD_DS",
+        "datatype" : "string"
+      }, {
+        "name" : "ResultPopDensity",
+        "titles" : "ResultPopDensity",
+        "datatype" : "string"
+      }, {
+        "name" : "PresenceDeforestation20",
+        "titles" : "PresenceDeforestation20",
+        "datatype" : "string"
+      }, {
+        "name" : "ProbUrbanExpan2030Cat",
+        "titles" : "ProbUrbanExpan2030Cat",
+        "datatype" : "string"
+      }, {
+        "name" : "AgChangePA",
+        "titles" : "AgChangePA",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
